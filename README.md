@@ -1,7 +1,7 @@
 requests-adapters
 =================
 
-Study of create adpater to use the **super clean** API of request to send a WSGI request over a faster trasport like rabbitmq+celery or zeromq - this first POC implements a adapter and a celery task.
+Study of create adpater to use the **super clean** API of [requests](http://docs.python-requests.org/en/latest/) to send a WSGI request over a faster trasport like rabbitmq+celery or zeromq - this first POC implements a adapter and a celery task.
 
 this is simple example, of course you need to have a celery configurated and rabbit running
 
